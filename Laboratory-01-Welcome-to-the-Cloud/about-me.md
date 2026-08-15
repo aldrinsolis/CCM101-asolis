@@ -1,0 +1,3 @@
+Hi! I am Aldrin Solis, a student who enjoys learning about technology and computers. I am interested in exploring how different computer systems work and how technology can be used to solve problems.
+In this laboratory, I am learning the basics of Linux and cloud computing. I am practicing how to use terminal commands, create and manage files, navigate directories, and work in a cloud-based Linux environment.
+I know that learning new technologies can be challenging, but I am willing to practice and learn from my mistakes. I hope this activity will help me become more confident and improve my skills in the field of Information Technology.
