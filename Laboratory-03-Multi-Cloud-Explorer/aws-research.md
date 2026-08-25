@@ -1,62 +1,69 @@
-# Amazon Web Services (AWS) Research
+# AWS Research
 
 ## Brief Overview
 
-Amazon Web Services (AWS) is a public cloud platform that provides a large collection of cloud computing services. AWS provides infrastructure and managed services that organizations can use to build, deploy, store, secure, and scale applications.
+Amazon Web Services (AWS) is a cloud computing platform provided by Amazon. AWS offers a wide range of cloud services for computing, storage, databases, networking, security, analytics, artificial intelligence, and application development. AWS provides services that organizations can use to build, deploy, and scale applications and IT infrastructure without needing to maintain physical servers. :contentReference[oaicite:0]{index=0}
 
 ## Global Infrastructure
 
-AWS operates its infrastructure through geographic Regions and Availability Zones. This infrastructure allows organizations to deploy resources in locations appropriate for their performance, availability, and business requirements.
+AWS operates a global cloud infrastructure consisting of **Geographic Regions, Availability Zones, and Edge Locations**. AWS Regions are geographic areas where AWS data centers are located, while Availability Zones are separate locations within a Region that help improve application availability and reliability.
+
+AWS's global infrastructure allows organizations to deploy applications closer to their customers, reduce network latency, and improve reliability. :contentReference[oaicite:1]{index=1}
 
 ## Cloud Management Console
 
-The AWS Management Console is a web-based interface used to access and manage AWS services. Administrators and developers can use the console to create and configure resources, monitor services, and manage cloud environments.
+The **AWS Management Console** is a web-based interface used to access and manage AWS services. Users can create and configure cloud resources, monitor services, manage accounts, and access billing and other AWS features through the console. :contentReference[oaicite:2]{index=2}
 
-## Four Core Services
+Official AWS Management Console:
 
-### 1. Amazon EC2
+https://aws.amazon.com/console/
 
-Amazon Elastic Compute Cloud (EC2) provides resizable virtual computing capacity in the AWS cloud. It can be used to run Linux and Windows workloads.
+## Four (4) Core Services
 
-### 2. Amazon S3
+| AWS Service | Description |
+|---|---|
+| **Amazon EC2** | Provides resizable virtual computing capacity that allows organizations to run applications and workloads in the cloud. |
+| **Amazon S3** | Provides scalable object storage for files, images, videos, backups, and other data. |
+| **Amazon VPC** | Provides a virtual network that allows organizations to securely connect and manage AWS resources. |
+| **AWS IAM** | Provides identity and access management for controlling access to AWS resources and services. |
 
-Amazon Simple Storage Service (S3) provides object storage for data such as documents, images, backups, application files, and other objects.
+These services represent important AWS capabilities for **compute, storage, networking, and identity/access management**. AWS provides many additional services across these and other categories. :contentReference[oaicite:3]{index=3}
 
-### 3. Amazon VPC
+## Three (3) Advantages
 
-Amazon Virtual Private Cloud (VPC) provides networking capabilities for AWS resources and allows organizations to create isolated virtual networks.
+1. **Scalability** – AWS allows organizations to increase or decrease cloud resources according to their workload requirements.
 
-### 4. AWS IAM
+2. **Global Availability** – AWS has a worldwide infrastructure that allows organizations to deploy applications across different geographic regions and Availability Zones. :contentReference[oaicite:4]{index=4}
 
-AWS Identity and Access Management (IAM) controls access to AWS resources. It allows organizations to manage users, roles, permissions, and access policies.
-
-## Three Advantages
-
-1. **Wide Service Selection** – AWS provides a broad collection of infrastructure, storage, database, networking, security, analytics, and application services.
-2. **Scalability** – AWS resources can be scaled according to application requirements.
-3. **Global Infrastructure** – Organizations can deploy workloads across multiple geographic locations.
+3. **Wide Range of Services** – AWS provides more than 200 cloud services covering computing, storage, databases, networking, security, analytics, artificial intelligence, and other areas. :contentReference[oaicite:5]{index=5}
 
 ## Typical Enterprise Use Cases
 
-AWS can be used by enterprises for:
+AWS is commonly used by enterprises for:
 
-* Web and mobile applications
-* Backup and disaster recovery
-* Data storage
-* Enterprise applications
-* Virtual machines
-* Database workloads
-* Data analytics
-* Machine learning
+- Hosting websites and business applications
+- Virtual server and cloud infrastructure
+- Data storage and backup
+- Database hosting
+- Data analytics
+- Artificial intelligence and machine learning
+- Enterprise networking
+- Disaster recovery
+- Application development and deployment
+- Identity and access management
 
-## Sources
+AWS is used by startups, enterprises, government organizations, and other customers to modernize infrastructure, develop applications, and scale their operations. :contentReference[oaicite:6]{index=6}
 
-* [AWS Official Website](https://aws.amazon.com/)
-* [AWS Documentation](https://docs.aws.amazon.com/)
-* [Amazon EC2 Documentation](https://docs.aws.amazon.com/ec2/)
-* [Amazon S3 Documentation](https://docs.aws.amazon.com/s3/)
-* [Amazon VPC Documentation](https://docs.aws.amazon.com/vpc/)
-* [AWS IAM Documentation](https://docs.aws.amazon.com/iam/)
-* [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/)
-* 
-- [AWS Homepage](https://aws.amazon.com/)
+## Screenshot
+
+### AWS Official Homepage
+
+![AWS Homepage](screenshots/aws-homepage.png)
+
+**Screenshot Source:** https://aws.amazon.com/
+
+### AWS Management Console
+
+![AWS Management Console](screenshots/aws-console.png)
+
+**Screenshot Source:** https://aws.amazon.com/console/
