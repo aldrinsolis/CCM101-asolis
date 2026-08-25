@@ -33,3 +33,17 @@ This document compares the three major cloud computing platforms: **Amazon Web S
 ### 4. Which cloud platform would you personally choose and why?
 
 **Answer:** I would personally choose AWS because it provides a wide range of cloud services and gives me many opportunities to learn different areas of cloud computing. AWS offers services for computing, storage, networking, security, databases, and application development, which makes it useful for building practical cloud computing skills.
+
+---
+
+## Checkpoint 5 – Match the Cloud Services
+
+The following table shows equivalent cloud services offered by AWS, Microsoft Azure, and Google Cloud Platform (GCP).
+
+| Service Category | AWS | Microsoft Azure | GCP |
+|---|---|---|---|
+| **Virtual Machine** | Amazon EC2 | Azure Virtual Machines | Google Compute Engine |
+| **Object Storage** | Amazon S3 | Azure Blob Storage | Google Cloud Storage |
+| **Identity Management** | AWS IAM | Microsoft Entra ID | Google Cloud IAM |
+| **SQL Database** | Amazon RDS | Azure SQL Database | Cloud SQL |
+| **Kubernetes** | Amazon EKS | Azure Kubernetes Service (AKS) | Google Kubernetes Engine (GKE) |
