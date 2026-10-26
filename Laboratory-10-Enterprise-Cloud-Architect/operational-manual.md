@@ -471,9 +471,3 @@ Before completing the lab, confirm each item:
 - [ ] The daily cron job is configured.
 - [ ] A database restore has been tested.
 - [ ] Off-host backup and recovery limitations are documented.
-
-## Conclusion
-
-The CloudNova Private Web Stack demonstrates how to deploy and operate a two-tier application using Docker Compose, WordPress, and MariaDB. It also introduces persistent storage, firewall configuration, automated backups, recovery procedures, and operational troubleshooting.
-
-These practices provide a foundation for learning cloud operations and infrastructure management. Before deploying a similar system publicly, strengthen its security controls, monitoring, backup strategy, and disaster recovery procedures.
